@@ -1,0 +1,51 @@
+[
+    {
+        "id": 5,
+        "title": "Data Analyst",
+        "name": "Innovapost",
+        "date": "Sep 23 - PRESENT",
+        "description": "Assigned with scripting for automatic monitoring, integrating new features, improving application functionality, and automating manual tasks as a member of the IT Operations team.",
+        "skills": [
+            "Python",
+            "Selenium",
+            "C#",
+            ".NET",
+            "WinForm"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "IT Support",
+        "name": "Flextra (Contract)",
+        "date": "May 23 - Jun 23",
+        "description": "Designed Logo and Visit cards, developed website for a startup company, and provided IT supports.",
+        "skills": [
+            "HTMl",
+            "CSS",
+            "Javascript",
+            "Canvas"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Site Reliability Engineer",
+        "name": "Innovapost",
+        "date": "Jan 23 - Apr 23",
+        "description": "Assigned with scripting for automatic monitoring, integrating new features, improving application functionality, and automating manual tasks as a member of the IT Operations team.",
+        "skills": [
+            "Python",
+            "Selenium",
+            "C#",
+            ".NET",
+            "WinForm"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Assistant Manager",
+        "name": "NT Nail Supply",
+        "date": "Aug 20 - Aug 21",
+        "description": "Efficiently managing both online and phone orders, handling all sales transactions, and providing exceptional spa equipment installation services.",
+        "skills": []
+    }
+]

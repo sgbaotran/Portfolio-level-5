@@ -1,0 +1,10 @@
+.about {
+    white-space: pre-wrap;
+    margin-bottom: 6em;
+}
+
+/* @media only screen and (max-width: 638px) {
+    .about {
+        margin-bottom: 9rem;
+    }
+} */

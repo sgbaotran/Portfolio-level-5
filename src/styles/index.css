@@ -1,0 +1,85 @@
+@import url(color.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+body,
+html {
+    /* cursor: none; */
+    /* overflow-x: auto; */
+    /* overflow-y: hidden; */
+    margin: 0;
+    overscroll-behavior: contain;
+    background: linear-gradient(45deg, var(--clr-main-right), var(--clr-main-left), var(--clr-main-right));
+    min-width: 1vw;
+    min-height: 1vh;
+    font-family: "Inter", sans-serif !important;
+}
+
+::selection {
+    color: var(--clr-selected-text);
+    background-color: var(--clr-selected-textarea);
+}
+
+html::before {
+    z-index: -1;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, var(--clr-main-right), var(--clr-main-left), var(--clr-main-right));
+    /* background-color: black; */
+    content: "";
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+p,
+span {
+    color: var(--clr-text-1) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.index {
+    padding-inline: min(6em);
+    display: flex;
+    /* align-items: start; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* .main-component{
+    max-width: 528px;
+} */
+
+@media only screen and (max-width: 1024px) {
+    .index {
+        display: block;
+        padding-inline: max(2em);
+    }
+    .header,
+    .content {
+        max-width: none !important;
+        margin-top: 5em !important;
+    }
+
+    .header {
+        position: static !important;
+    }
+
+    .experience-item {
+        padding: 0 !important;
+    }
+}

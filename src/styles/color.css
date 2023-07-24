@@ -1,0 +1,18 @@
+:root {
+    /* FOr linear gradient background*/
+    --clr-main-left: #0e172a;
+    --clr-main-right: #10172a;
+
+    --clr-text-1: rgba(141, 157, 185, 0.8);
+    --clr-text-2: #64748b;
+
+    --clr-header-basics: #e2e8f0;
+
+    --clr-pill-bg: #14313d;
+    --clr-pill-text: #58dcc8;
+
+    --clr-selected-textarea: #5dead4;
+    --clr-selected-text: #297b72;
+
+    --clr-navigation-unselected: #424549;
+}

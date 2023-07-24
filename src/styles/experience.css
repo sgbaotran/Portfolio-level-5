@@ -1,0 +1,105 @@
+@import url(color.css);
+/*THE WHOLE EXPERIENCE ITEM*/
+
+#experience{
+    margin-bottom: 6em;
+}
+
+.experience-item {
+    padding: 1.2em;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.25em;
+    margin-bottom: 2em;
+    transition: 0.15s;
+    animation: 0.15s linear glow;
+    user-select: none;
+}
+
+@media only screen and (min-width: 1025px) {
+    .experience-item:hover {
+        color: var(--clr-pill-text);
+        background-color: rgba(255, 255, 255, 0.1);
+        -webkit-box-shadow: 5px 7px 28px -3px rgba(0, 0, 0, 0.05);
+        box-shadow: 5px 7px 28px -3px rgba(0, 0, 0, 0.05);
+    }
+
+    .experience-item:hover > .experience-info > .experience-title {
+        color: var(--clr-pill-text) !important;
+    }
+    .experience-item:hover > .experience-info > .experience-title > .arrow-symbol {
+        color: var(--clr-pill-text) !important;
+        transform: translateY(-0.2em);
+    }
+}
+
+/*EXPERIENCE TIME*/
+
+.experience-date {
+    font-size: 1em;
+    color: var(--clr-text-2) !important;
+    font-weight: 500;
+    flex: 3;
+}
+
+/* EXPERIENCE OTHER INFO*/
+
+.experience-info {
+    flex: 7;
+}
+
+.experience-title {
+    margin: 0 !important;
+    font-weight: 300;
+    color: var(--clr-header-basics) !important;
+    transition: 0.15s;
+    animation: 0.15s linear glow;
+}
+
+.arrow-symbol {
+    font-size: 0.9em;
+    color: var(--clr-header-basics) !important;
+    display: inline-block;
+    margin-left: 0.5em;
+    transition: 0.15s;
+    animation: 0.15s linear glow;
+}
+
+.experience-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 1em !important;
+}
+
+.experience-skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.experience-skill {
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    padding-block: 0.3em;
+    padding-inline: 0.8em;
+    border-radius: 1em;
+    color: var(--clr-pill-text);
+    background-color: var(--clr-pill-bg);
+}
+
+@media only screen and (max-width: 638px) {
+    .experience-item {
+        display: block;
+    }
+
+    .experience-date {
+        margin-bottom: 1em !important;
+    }
+}
+
+.not-focus {
+    filter: brightness(75%);
+}

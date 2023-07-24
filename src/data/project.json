@@ -1,0 +1,54 @@
+[
+    {
+        "id": 3,
+        "title": "Fipolio",
+        "image-url": "Sep 23 - PRESENT",
+        "description": "Developed a MERN stack web app for portfolio and financial management with REST API. Utilized CI/CD pipeline with Jenkins for automated Docker image builds, facilitating AWS deployment. Demonstrated full-stack skills and expertise in DevOps methodologies, ensuring seamless web application creation and deployment.",
+        "skills": [
+            "NodeJS",
+            "Docker",
+            "Jenkins",
+            "Chart.js",
+            "TailwindCSS"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Fipolio",
+        "image-url": "Sep 23 - PRESENT",
+        "description": "Developed a MERN stack web app for portfolio and financial management with REST API. Utilized CI/CD pipeline with Jenkins for automated Docker image builds, facilitating AWS deployment. Demonstrated full-stack skills and expertise in DevOps methodologies, ensuring seamless web application creation and deployment.",
+        "skills": [
+            "NodeJS",
+            "Docker",
+            "Jenkins",
+            "Chart.js",
+            "TailwindCSS"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "ToDo",
+        "image-url": "May 23 - Jun 23",
+        "description": "Designed Logo and Visit cards, developed website for a startup company, and provided IT supports.",
+        "skills": [
+            "HTMl",
+            "CSS",
+            "Javascript",
+            "NodeJS",
+            "Express"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "EDM PodCast",
+        "image-url": "Jan 23 - Apr 23",
+        "description": "Assigned with scripting for automatic monitoring, integrating new features, improving application functionality, and automating manual tasks as a member of the IT Operations team.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Bootstrap",
+            "ReactJS"
+        ]
+    }
+]
