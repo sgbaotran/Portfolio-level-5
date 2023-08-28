@@ -1,5 +1,23 @@
 [
     {
+        "id": 5,
+        "title": "ZEIN",
+        "image-url": "Sep 23 - PRESENT",
+        "description": "An AI SaaS Platform with five AI tools. Powered by the Next.js 13 App Router, our platform will not only be efficient but also user-centric.",
+        "skills": [
+            "NextJS",
+            "ReactJS",
+            "Typescript",
+            "TailwindCSS",
+            "ShadCN",
+            "Clerk",
+            "Prisma",
+            "Stripe",
+            "OpenAI",
+            "Replicate"
+        ]
+    },
+    {
         "id": 4,
         "title": "Battleship",
         "image-url": "Sep 23 - PRESENT",
